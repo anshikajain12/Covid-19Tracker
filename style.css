@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-image: url("https://media.istockphoto.com/photos/representation-of-many-corona-viruses-trigger-of-severe-acute-3d-picture-id1219180643?k=20&m=1219180643&s=612x612&w=0&h=nwQbpeL3srA8kTLehIVAN4zqt-cwapSXn7iJr9MIHZo=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+
+}
+header {
+  text-align: center;
+  font-size: 55px;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: rgb(198 154 198);
+  text-shadow: 8px 3px 3px #5e4e4e;
+font-family: 'Oswald', sans-serif;
+
+}
+section {
+  width: 30%;
+  height: 70vh;
+  border: 1px solid white;
+  margin: auto;
+  padding-left: 20px;
+  box-shadow: 2px 7px 12px #8ea09e;
+  background: rgb(177, 147, 160);
+  background: linear-gradient(
+    90deg,
+    rgba(177, 147, 160, 1) 0%,
+    rgb(139 139 211) 100%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border-radius:  105px 40px;
+  animation: slidein 2s 1;
+  
+}
+@keyframes slidein {
+  0% {
+    margin-top: -50%;
+    opacity: .2;
+  }
+  50% {
+    margin-top: 100px;
+    opacity: .5;
+  }
+  100% {
+    margin-top: 0%;
+    opacity: 1;
+
+  }
+}
+form {
+  margin-top: 2px;
+}
+select {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e1651;
+  width: 148px;
+  font-weight: unset;
+  border: 1px solid #7d5e81;
+  border-radius: 8px;
+}
+
+section h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 31px;
+  font-family: 'Oswald';
+  font-weight: bold;
+}
+#m {
+  font-size: 23px;
+  margin-right: 14px;
+  color: #251527;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#y1,
+#y2,
+#y3,
+#y4,
+#y5,
+#y6 {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e1651;
+}
+h4 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+}
+video{
+  display: none;
+}
